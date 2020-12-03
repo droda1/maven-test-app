@@ -46,13 +46,11 @@
         <artifactId>maven-surefire-report-plugin</artifactId>
       </plugin>
       <!-- für das Praktikum "Integrationstest"-->
-      <!--
-      plugin>
+      <plugin>
               <groupId>org.jacoco</groupId>
               <artifactId>jacoco-maven-plugin</artifactId>
               <version>0.8.6</version>
-            </plugin
-      -->
+      </plugin>
     </plugins>
   </reporting>
   <build>
@@ -79,8 +77,7 @@
         </configuration>
       </plugin>
       <!-- für das Praktikum "Integrationstest"-->
-      <!--
-      plugin>
+      <plugin>
               <groupId>org.jacoco</groupId>
               <artifactId>jacoco-maven-plugin</artifactId>
               <version>0.8.6</version>
@@ -98,8 +95,7 @@
                   </goals>
                 </execution>
               </executions>
-            </plugin
-      -->
+            </plugin>
     </plugins>
     <pluginManagement>
       <!--

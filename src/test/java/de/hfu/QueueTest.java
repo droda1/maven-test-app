@@ -37,7 +37,7 @@ public class QueueTest {
         Assert.assertEquals(this.queue.head, 2);
 
         this.dequeueAll();
-        Assert.assertEquals(this.queue.head, 9);
+        Assert.assertEquals(this.queue.head, 10);
     }
 
     @Test(expected = IllegalStateException.class, timeout = 1000)
